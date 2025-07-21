@@ -5,7 +5,7 @@ body {
 }
 
 nav.navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -17,4 +17,12 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 10px 0;
+}
+
+.nav-link.active {
+  background-color: #1ABC9C;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+  transition: all 0.3s ease-in-out;
 }

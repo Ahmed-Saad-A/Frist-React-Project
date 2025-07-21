@@ -3,9 +3,9 @@ import './About.css'
 
 const About = () => {
   return (
-    <section className="bg-main pb-5 about">
+    <section className="bg-main py-5 about">
       <header>
-        <h1 className="text-white text-center text-uppercase">
+        <h1 className="text-white text-center text-uppercase pt-5 mt-5">
           About component
         </h1>
 

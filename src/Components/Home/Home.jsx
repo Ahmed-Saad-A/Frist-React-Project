@@ -5,7 +5,7 @@ let avataar = "/images/avataaars.webp";
 const Home = () => {
   return (
     <section className="bg-main p-5">
-      <main className="d-flex flex-column justify-content-center align-items-center">
+      <main className="d-flex flex-column justify-content-center align-items-center pt-5 mt-5">
         <div className="image">
           <img className="w-100S" src={avataar} alt="Avatar" />
         </div>

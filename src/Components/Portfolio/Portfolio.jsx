@@ -17,9 +17,9 @@ const Portfolio = () => {
 
   return (
     <>
-      <section className="bg-secound container pb-5 my-5">
+      <section className="bg-secound container py-5 my-5">
         <header>
-          <h1 className="text-uppercase text-center Bold text.">
+          <h1 className="text-uppercase text-center Bold text. mt-5">
             portfolio component
           </h1>
           <div className="decor d-flex justify-content-center align-items-center">

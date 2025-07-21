@@ -23,6 +23,7 @@ main {
 .bg-main {
   background-color: #1ABC9C;
   padding: 105px 0;
+  min-height: 65vh;
 }
 .bg-secound {
   background-color: #fff;

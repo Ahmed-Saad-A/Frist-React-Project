@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 
@@ -17,13 +17,17 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <>
-      <nav className={`navbar navbar-expand-lg navbar-dark ${scrolled ? "scrolled" : ""}`}>
+      <nav
+        className={`navbar navbar-expand-lg navbar-dark ${
+          scrolled ? "scrolled" : ""
+        }`}
+      >
         <div className="container">
           <Link className="navbar-brand fw-bold" to="/">
             START FRAMEWORK

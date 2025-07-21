@@ -2,9 +2,9 @@ import React from "react";
 import "./Contact.css";
 const Contact = () => {
   return (
-    <section className="bg-secound pb-5 my-5 w-75 m-auto">
+    <section className="bg-secound py-5 my-5 w-75 m-auto">
       <header>
-        <h1 className="text-uppercase text-center Bold text.">conatct section</h1>
+        <h1 className="text-uppercase text-center Bold text. mt-5">conatct section</h1>
         <div className="decor d-flex justify-content-center align-items-center">
           <div className="me-3 line"></div>
           <i className="bi bi-star-fill"></i>
