@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+// import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -29,9 +29,9 @@ const Navbar = () => {
         }`}
       >
         <div className="container">
-          <Link className="navbar-brand fw-bold" to="/">
+          <NavLink className="navbar-brand fw-bold" to="/">
             START FRAMEWORK
-          </Link>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -49,19 +49,19 @@ const Navbar = () => {
           >
             <ul className="navbar-nav gap-3">
               <li className="nav-item">
-                <Link className="nav-link active" to="about">
+                <NavLink className="nav-link" to="about">
                   ABOUT
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="portfolio">
+                <NavLink className="nav-link" to="portfolio">
                   PORTFOLIO
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="contact">
+                <NavLink className="nav-link" to="contact">
                   CONTACT
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>

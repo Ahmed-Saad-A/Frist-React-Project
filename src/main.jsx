@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import "bootstrap";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+// import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
