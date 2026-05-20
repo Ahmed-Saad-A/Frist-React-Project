@@ -14,26 +14,46 @@ const Contact = () => {
       <main>
         <form className="w-75 m-auto" action="">
           <div className="input-group">
+<<<<<<< HEAD
             <input type="text" id="username" placeholder=" " required />
+=======
+            <input type="text" id="username" placeholder="Elsayed Hossny" required />
+>>>>>>> origin/Feature--ah-Sa3d
             <label htmlFor="username">userName</label>
           </div>
 
           <div className="input-group">
+<<<<<<< HEAD
             <input type="text" id="phone" placeholder=" " required />
+=======
+            <input type="text" id="phone" placeholder="010000000000" required />
+>>>>>>> origin/Feature--ah-Sa3d
             <label htmlFor="phone">userAge</label>
           </div>
 
           <div className="input-group">
+<<<<<<< HEAD
             <input type="text" id="email" placeholder=" " required />
+=======
+            <input type="text" id="email" placeholder="Hambozo@hambz.com" required />
+>>>>>>> origin/Feature--ah-Sa3d
             <label htmlFor="email">userEmail</label>
           </div>
 
           <div className="input-group">
+<<<<<<< HEAD
             <input type="text" id="address" placeholder=" " required />
             <label htmlFor="address">userPassword</label>
           </div>
 
           <button className="submit text-white px-5 py-2">send Message</button>
+=======
+            <input type="text" id="address" placeholder="Ay7agaaaa" required />
+            <label htmlFor="address">userPassword</label>
+          </div>
+
+          <button className="submit text-white px-5 py-2">SendInformation</button>
+>>>>>>> origin/Feature--ah-Sa3d
         </form>
       </main>
     </section>
