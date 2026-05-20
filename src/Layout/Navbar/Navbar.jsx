@@ -55,7 +55,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="portfolio">
-                  PORTFOLIO
+                  البرتوفليو
                 </NavLink>
               </li>
               <li className="nav-item">
