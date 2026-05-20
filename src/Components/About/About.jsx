@@ -24,7 +24,8 @@ const About = () => {
                 Freelancer is a free bootstrap theme created by Route. The
                 download includes the complete source files including HTML, CSS,
                 and JavaScript as well as optional SASS stylesheets for easy
-                customization.
+                customization. التلاجة فيها مية الا انا جعان اوي
+                <img src="https://images.unsplash.com/photo-1621839673705-6617adf9e890?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="code symbol" className="about-image" />
               </p>
             </div>
           </div>
@@ -35,7 +36,8 @@ const About = () => {
                 Freelancer is a free bootstrap theme created by Route. The
                 download includes the complete source files including HTML, CSS,
                 and JavaScript as well as optional SASS stylesheets for easy
-                customization.
+                customization. افتح يا عم انا عمدة
+                <img src="https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="about-image" />
               </p>
             </div>
           </div>
