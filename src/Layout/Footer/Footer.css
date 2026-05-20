@@ -1,8 +1,197 @@
-footer {
-    background-color: #2C3E50;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css');
+
+/* ─── Wrapper ─────────────────────────────────── */
+.footer-wrap {
+    font-family: 'DM Sans', sans-serif;
+    background: #0D1B2A;
+    color: #CBD5E1;
+    position: relative;
+    overflow: hidden;
 }
 
-.socila a {
+/* Top gradient border */
+.footer-wrap::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg,
+            transparent,
+            #00B4D8,
+            #7C3AED,
+            #00B4D8,
+            transparent);
+}
+
+/* Subtle noise texture overlay */
+.footer-noise {
+    position: absolute;
+    inset: 0;
+    opacity: 0.025;
+    pointer-events: none;
+}
+
+/* ─── Main Grid ────────────────────────────────── */
+.footer-main {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3.5rem 2rem 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* ─── Column ───────────────────────────────────── */
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-icon {
+    font-size: 20px;
+    color: #00B4D8;
+    opacity: 0.65;
+    margin-bottom: 0.75rem;
+}
+
+.footer-col-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #00B4D8;
+    margin: 0 0 1.25rem;
+    position: relative;
+    padding-bottom: 0.75rem;
+}
+
+.footer-col-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 24px;
+    height: 1px;
+    background: #00B4D8;
+    opacity: 0.5;
+}
+
+.footer-col p {
+    margin: 0 0 0.35rem;
+    font-size: 13.5px;
+    font-weight: 300;
+    color: #94A3B8;
+    line-height: 1.8;
+}
+
+/* ─── Social Buttons ───────────────────────────── */
+.social-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.social-btn {
     width: 40px;
     height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 180, 216, 0.25);
+    background: rgba(0, 180, 216, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #94A3B8;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    border-color: #00B4D8;
+    background: rgba(0, 180, 216, 0.12);
+    color: #00B4D8;
+    transform: translateY(-3px);
+}
+
+/* ─── About Text ───────────────────────────────── */
+.about-text {
+    font-size: 13px;
+    font-weight: 300;
+    color: #64748B;
+    line-height: 1.9;
+    max-width: 180px;
+}
+
+.about-text .brand {
+    color: #00B4D8;
+    font-weight: 500;
+}
+
+/* ─── Divider ──────────────────────────────────── */
+.footer-divider {
+    position: relative;
+    z-index: 1;
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.06),
+            transparent);
+    margin: 0 2rem;
+}
+
+/* ─── Bottom Bar ───────────────────────────────── */
+.footer-bottom {
+    position: relative;
+    z-index: 1;
+    padding: 1.25rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.footer-copy {
+    font-size: 12px;
+    font-weight: 300;
+    color: #475569;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+.footer-copy span {
+    color: #00B4D8;
+}
+
+/* Dot separator */
+.dot {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #00B4D8;
+    opacity: 0.5;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* ─── Responsive ───────────────────────────────── */
+@media (max-width: 768px) {
+    .footer-main {
+        grid-template-columns: 1fr;
+        padding: 2.5rem 1.5rem 2rem;
+        gap: 2.5rem;
+    }
+
+    .footer-divider {
+        margin: 0 1.5rem;
+    }
 }

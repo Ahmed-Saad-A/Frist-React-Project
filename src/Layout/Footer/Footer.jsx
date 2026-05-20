@@ -1,82 +1,45 @@
 import React from "react";
-import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
 
+const socialLinks = [
+  { icon: "ti-brand-facebook", label: "Facebook" },
+  { icon: "ti-brand-twitter", label: "Twitter" },
+  { icon: "ti-brand-linkedin", label: "LinkedIn" },
+  { icon: "ti-globe", label: "Website" },
+];
+
 const Footer = () => {
-
-
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> origin/Feature--ah-Sa3d
   return (
-    <footer className="text-white pt-5">
-      <div className="container foot text-center text-md-start">
-        <div className="row text-center text-md-start">
-          <div className="col-md-4 mb-4 text-center">
-            <h5 className="fw-bold mb-3">LOCATION</h5>
-            <p>2215 John Daniel Drive</p>
-            <p>Clark, MO 65243</p>
-          </div>
+    <footer className="footer-wrap">
+      <div className="footer-noise"></div>
 
-          <div className="col-md-4 mb-4 text-center">
-            <h5 className="fw-bold mb-3 text-uppercase">
-              Nayel
-            </h5>
-            <div className="d-flex socila justify-content-center gap-3">
-              <a
-                href="#"
-                className="text-white border rounded-circle d-flex align-items-center justify-content-center"
-              >
-                <i className="bi bi-facebook fs-6 text-white"></i>
-              </a>
-              <a
-                href="#"
-                className="text-white border rounded-circle d-flex align-items-center justify-content-center"
-              >
-                <i className="bi bi-twitter fs-6 text-white"></i>
-              </a>
-              <a
-                href="#"
-                className="text-white border rounded-circle d-flex align-items-center justify-content-center"
-              >
-                <i className="bi bi-linkedin fs-6 text-white"></i>
-              </a>
-              <a
-                href="#"
-                className="text-white border rounded-circle d-flex align-items-center justify-content-center"
-              >
-                <i className="bi bi-globe fs-6 text-white"></i>
-              </a>
-            </div>
-          </div>
+      <div className="footer-main">
 
-          <div className="col-md-4 mb-4 text-center">
-<<<<<<< HEAD
-            <h5 className="fw-bold mb-3">ABOUT FREELANCER</h5>
-            <p>
-              Freelance is a free to use, licensed Bootstrap theme created by
-              Route
-=======
-            <h5 className="fw-bold mb-3">Ashraf🙎🏻‍♂️🙎🏻‍♂️🙎🏻‍♂️🙎🏻‍♂️🙎🏻‍♂️🙎🏻‍♂️🙎🏻‍♂️</h5>
-            <p>
-              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
->>>>>>> origin/Feature--ah-Sa3d
-            </p>
-          </div>
-
+        <div className="footer-col">
+          <i className="ti ti-map-pin footer-icon" aria-hidden="true"></i>
+          <h5 className="footer-col-title">Location</h5>
+          <p>2215 John Daniel Drive</p>
+          <p>Clark, MO 65243</p>
         </div>
-      </div>
 
-      <div className="text-center py-3" style={{ backgroundColor: "#1A252F" }}>
-        <p className="mb-0">Copyright © Your Website 2021</p>
-      </div>
-    </footer>
-  );
-};
+        <div className="footer-col">
+          <i className="ti ti-world footer-icon" aria-hidden="true"></i>
+          <h5 className="footer-col-title">Around the web</h5>
+          <div className="social-row">
+            {socialLinks.map((s) => (
+              
+                href="#"
+                className="social-btn"
+                aria-label={s.label}
+                key={s.label}
+              >
+                <i className={`ti ${s.icon}`} aria-hidden="true"></i>
+              </a>
+            ))}
+          </div>
+        </div>
 
-export default Footer;
+        <div className="footer-col">
+          <i className="ti ti-user-circle footer-icon" aria-hidden="true"></i>
+          <h5 className="footer-col-title">About Freelancer</h5>
+          <p classNam
