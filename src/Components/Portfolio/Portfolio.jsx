@@ -20,7 +20,7 @@ const Portfolio = () => {
       <section className="bg-secound container py-5 my-5">
         <header>
           <h1 className="text-uppercase text-center Bold text. mt-5">
-            portfolio component
+            portfolio itemmmmmmmmmmmmmmmmmmmm
           </h1>
           <div className="decor d-flex justify-content-center align-items-center">
             <div className="me-3 line"></div>
