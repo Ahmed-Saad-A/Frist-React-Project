@@ -18,7 +18,7 @@ const Footer = () => {
 
           <div className="col-md-4 mb-4 text-center">
             <h5 className="fw-bold mb-3 text-uppercase">
-              Around the Web
+              Nayel
             </h5>
             <div className="d-flex socila justify-content-center gap-3">
               <a
