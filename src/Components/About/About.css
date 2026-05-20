@@ -1,5 +1,11 @@
-
 .about {
     min-height: 80vh;
     margin: auto;
+}
+
+.about-image {
+    width: 50%;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
 }
