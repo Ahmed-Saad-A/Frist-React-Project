@@ -55,7 +55,11 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="portfolio">
+<<<<<<< HEAD
+                  البرتوفليو
+=======
                   PORTFOLIO
+>>>>>>> origin/Feature--ah-Sa3d
                 </NavLink>
               </li>
               <li className="nav-item">

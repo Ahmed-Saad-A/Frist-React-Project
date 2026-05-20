@@ -5,7 +5,11 @@ import "./Footer.css";
 const Footer = () => {
 
 
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> origin/Feature--ah-Sa3d
   return (
     <footer className="text-white pt-5">
       <div className="container foot text-center text-md-start">
@@ -49,10 +53,19 @@ const Footer = () => {
           </div>
 
           <div className="col-md-4 mb-4 text-center">
+<<<<<<< HEAD
             <h5 className="fw-bold mb-3">ABOUT FREELANCER</h5>
             <p>
               Freelance is a free to use, licensed Bootstrap theme created by
               Route
+=======
+            <h5 className="fw-bold mb-3">Ashraf🙎🏻‍♂️🙎🏻‍♂️🙎🏻‍♂️🙎🏻‍♂️🙎🏻‍♂️🙎🏻‍♂️🙎🏻‍♂️</h5>
+            <p>
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+>>>>>>> origin/Feature--ah-Sa3d
             </p>
           </div>
 
