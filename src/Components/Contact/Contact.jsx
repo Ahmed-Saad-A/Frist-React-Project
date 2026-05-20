@@ -14,26 +14,26 @@ const Contact = () => {
       <main>
         <form className="w-75 m-auto" action="">
           <div className="input-group">
-            <input type="text" id="username" placeholder=" " required />
+            <input type="text" id="username" placeholder="Elsayed Hossny" required />
             <label htmlFor="username">userName</label>
           </div>
 
           <div className="input-group">
-            <input type="text" id="phone" placeholder=" " required />
+            <input type="text" id="phone" placeholder="010000000000" required />
             <label htmlFor="phone">userAge</label>
           </div>
 
           <div className="input-group">
-            <input type="text" id="email" placeholder=" " required />
+            <input type="text" id="email" placeholder="Hambozo@hambz.com" required />
             <label htmlFor="email">userEmail</label>
           </div>
 
           <div className="input-group">
-            <input type="text" id="address" placeholder=" " required />
+            <input type="text" id="address" placeholder="Ay7agaaaa" required />
             <label htmlFor="address">userPassword</label>
           </div>
 
-          <button className="submit text-white px-5 py-2">send Message</button>
+          <button className="submit text-white px-5 py-2">SendInformation</button>
         </form>
       </main>
     </section>
